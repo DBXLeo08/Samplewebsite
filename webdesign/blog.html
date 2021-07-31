@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang = 'en'>
+<html>
+<head>
+	<meta name="viewport" content="with=device ,initial-scale= 1.0">
+	<title> Webdesigning </title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<section class="sub-header">
+		<nav>
+			<a href="index.html"><img src="images/logo.png"></a>
+			<div class="nav-links" id="navlinks">
+				<i class="fa fa-times" onclick="hidemenu()"></i>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="course.html">Course</a></li>
+					<li><a href="blog.html">Blog</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</div>
+				<i class="fa fa-bars" onclick="showmenu()"></i>
+		</nav>
+		<h1>Our certification and online programs for 2021</h1>
+		
+	</section>
+	<!------------------Blog content-------------------------------------------->
+	<section class="blog-content">
+		<div class="row">
+			<div class="blog-left">
+				<img src="images/certificate.jpg">
+				<h2>our certificate and online program 2021</h2>
+				<p>A certification is a third-party attestation of an individual's level of knowledge or proficiency in a certain industry or profession. They are granted by authorities in the field, such as professional societies and universities, or by private certificate-granting agencies. Most certifications are time-limited; some expire after a period of time (e.g., the lifetime of a product that required certification for use), while others can be renewed indefinitely as long as certain requirements are met. Renewal usually requires ongoing education to remain up-to-date on advancements in the field, evidenced by earning the specified number of continuing education credits (CECs), or continuing education units (CEUs), from approved professional development courses.</p><br>
+				<p>Many certification programs are affiliated with professional associations, trade organizations, or private vendors interested in raising industry standards. Certificate programs are often created or endorsed by professional associations, but are typically completely independent from membership organizations. Certifications are very common in fields such as aviation, construction, technology, environment, and other industrial sectors, as well as healthcare, business, real estate, and finance.</p>
+				<br>
+				<p>According to The Guide to National Professional Certification Programs (1997) by Phillip Barnhart, "certifications are portable, since they do not depend on one company's definition of a certain job" and they provide potential employers with "an impartial, third-party endorsement of an individual's professional knowledge and experience".</p>
+				<div class="comment-box">
+					<h3>Leave a comment</h3>
+					<form class="comment-form">
+						<input type="text" placeholder="Enter name">
+						<input type="text" placeholder="Enter Email">
+						<textarea rows="5 " placeholder="Your comment"></textarea>
+						<button type="submit" class="hero-btn red-btn"> Post Comment</button>
+					</form>
+				</div>
+			</div>
+			<div class="blog-right">
+			<h3>Post Category</h3>
+			<div>
+				<span>Business Category</span>
+				<span>21</span>
+			</div>
+			<div>
+				<span>Data Science</span>
+				<span>24</span>
+			</div>
+			<div>
+				<span>Journalism</span>
+				<span>41</span>
+			</div>
+			<div>
+				<span>Astrophysics </span>
+				<span>60</span>
+			</div>
+			<div>
+				<span>Industrial</span>
+				<span>78</span>
+			</div>
+		</div>
+
+		</div>
+		
+	</section>
+	
+	<!------------------------FOOTER-------------------------------------------->
+	<section class="footer">
+		<h3>ABOUT US</h3>
+		<p>The great attention to detail and interactivity also reflect the company’s 16 years of experience.</p>
+		<div class="icon">
+			<a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a>
+			<a href="https://www.twitter.com"><i class="fa fa-twitter"></i></a>
+			<a href="https://www.instagram.com"><i class="fa fa-instagram"></i></a>
+			<a href="https://www.linkedin.com"><i class="fa fa-linkedin"></i></a>
+		</div>
+
+	</section>
+	
+
+	
+	<!-----javascript------------------------------------------------------------------------------------------------>
+	
+	<script type="text/javascript">
+		
+		var navlinks =document.getElementById("navlinks");
+
+		function showmenu(){
+			navlinks.style.right= "0";
+		}
+		function hidemenu(){
+			navlinks.style.right="-200px";
+		}
+	</script>
+</body>
+</html>

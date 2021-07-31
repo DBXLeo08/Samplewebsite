@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang = 'en'>
+<html>
+<head>
+	<meta name="viewport" content="with=device ,initial-scale= 1.0">
+	<title> Webdesigning </title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<section class="sub-header">
+		<nav>
+			<a href="index.html"><img src="images/logo.png"></a>
+			<div class="nav-links" id="navlinks">
+				<i class="fa fa-times" onclick="hidemenu()"></i>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="course.html">Course</a></li>
+					<li><a href="blog.html">Blog</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</div>
+				<i class="fa fa-bars" onclick="showmenu()"></i>
+		</nav>
+		<h1>OUR COURSES</h1>
+		
+	</section>
+	<!-----course---------------------------------------------------------------------------------------------------->
+	<section class="course">
+		<h1>Courses we provide</h1>
+		<p>Each graduate course has a dedicated course page on our website, which will provide you with detailed information about the course and how to apply for it. </p>
+		<div class="row">
+			<div class="course-col">
+				<h3>Intermediate</h3>
+				<p>The students can either study by themselves for these Entrance Tests or join long- term coaching along with Intermediate Course</p>				
+			</div>
+			<div class="course-col">
+				<h3>Degree</h3>
+				<p>Try your first course risk-free & start working towards your degree today. Courses, Specializations, or MasterTrack Certificates that are part of degrees </p>				
+			</div>
+			<div class="course-col">
+				<h3>Post-Graduate</h3>
+				<p> In today's world the number of college graduates is much more than the number of jobs available. The need for Post Graduate or PG Courses</p>
+			</div>
+		</div>
+
+	</section>
+	<!-----facilities---------------------------------------------------------------------------------------------------->
+	<section class="facilities">
+		<h1>Our Facilities</h1>
+		<p>Residential Facilities: Housing facilities for students, faculty, staff, and outside visitors to campus. Leased: All facilities that the university leases.</p>
+		<div class="row">
+			<div class="facilities-col">
+				<img src="images/Library.png">
+					<h3>World Class Library</h3>
+					<p>The library at your dream college deserves a second look. Between epic study sessions, research for your thesis..</p>		
+			</div>
+			<div class="facilities-col">
+				<img src="images/basketball.jpg">
+					<h3>largest basketball court</h3>
+					<p>NBC Basketball Camps offers you to transform your game into one of ours sports camps. Develop your skills in basketball</p>		
+			</div>
+			<div class="facilities-col">
+				<img src="images/cafeteria.png">
+					<h3>Tasty and Healthy Food</h3>
+					<p>cafeteria, food service and related trends for building ... address general student health and safety across the campus.</p>		
+			</div>
+			</div>
+	</section>
+	
+	<!------------------------FOOTER-------------------------------------------->
+	<section class="footer">
+		<h3>ABOUT US</h3>
+		<p>The great attention to detail and interactivity also reflect the company’s 16 years of experience.</p>
+		<div class="icon">
+			<a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a>
+			<a href="https://www.twitter.com"><i class="fa fa-twitter"></i></a>
+			<a href="https://www.instagram.com"><i class="fa fa-instagram"></i></a>
+			<a href="https://www.linkedin.com"><i class="fa fa-linkedin"></i></a>
+		</div>
+
+	</section>
+	
+
+	
+	<!-----javascript------------------------------------------------------------------------------------------------>
+	
+	<script type="text/javascript">
+		
+		var navlinks =document.getElementById("navlinks");
+
+		function showmenu(){
+			navlinks.style.right= "0";
+		}
+		function hidemenu(){
+			navlinks.style.right="-200px";
+		}
+	</script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang = 'en'>
+<html>
+<head>
+	<meta name="viewport" content="with=device ,initial-scale= 1.0">
+	<title> Webdesigning </title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<section class="sub-header">
+		<nav>
+			<a href="index.html"><img src="images/logo.png"></a>
+			<div class="nav-links" id="navlinks">
+				<i class="fa fa-times" onclick="hidemenu()"></i>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="course.html">Course</a></li>
+					<li><a href="blog.html">Blog</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</div>
+				<i class="fa fa-bars" onclick="showmenu()"></i>
+		</nav>
+		<h1>About us</h1>
+		
+	</section>
+	
+	<!------------------------FOOTER-------------------------------------------->
+	<section class="footer">
+		<h3>ABOUT US</h3>
+		<p>The great attention to detail and interactivity also reflect the company’s 16 years of experience.</p>
+		<div class="icon">
+			<i class="fa fa-facebook"></i>
+			<i class="fa fa-twitter"></i>
+			<i class="fa fa-instagram"></i>
+			<i class="fa fa-linkedin"></i>
+		</div>
+
+	</section>
+	<!----------------------ABOUT US CONTENT-------------------------------------->
+	<section class="about-us">
+		<div class="row">
+			<div class="about-col">
+				<h1>We are the world largest university.</h1>
+				<p>University, institution of higher education, usually comprising a college of liberal arts and sciences and graduate and professional schools and having the authority to confer degrees in various fields of study. A university differs from a college in that it is usually larger, has a broader curriculum, and offers graduate and professional degrees in addition to undergraduate degrees. Although universities did not arise in the West until the Middle Ages in Europe, they existed in some parts of Asia and Africa in ancient times.</p>
+				<a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+			</div>
+			<div class="about-col">
+				<img src="images/about.jpg">
+			</div>
+		</div>
+	</section>
+
+
+	
+	<!-----javascript------------------------------------------------------------------------------------------------>
+	
+	<script type="text/javascript">
+		
+		var navlinks =document.getElementById("navlinks");
+
+		function showmenu(){
+			navlinks.style.right= "0";
+		}
+		function hidemenu(){
+			navlinks.style.right="-200px";
+		}
+	</script>
+</body>
+</html>
